@@ -1,0 +1,94 @@
+/* Global font settings */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7fc;
+  }
+  
+  /* Styling for the login container */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .login-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title for the login form */
+  .login-title {
+    text-align: center;
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  
+  /* Input fields */
+  .input-field {
+    padding-left: 30px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .input-field:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Icons inside input fields */
+  .input-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #007bff;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .select-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #007bff;
+    font-size: 18px;
+  }
+  
+  /* Submit button */
+  .submit-btn {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Alert styling */
+  .alert {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .login-card {
+      width: 90%;
+      padding: 20px;
+    }
+  }
+  
