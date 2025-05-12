@@ -1,20 +1,24 @@
 {
-  "name": "mongosh-app",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "faq-system-js",
+  "version": "0.0.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "bcrypt": "^5.1.1",
-    "jsonwebtoken": "^9.0.2",
-    "mogoose": "^0.0.1-security"
+    "bootstrap": "^5.3.5",
+    "framer-motion": "^12.9.4",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.9",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^6.23.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.2",
+    "vite": "^5.0.0"
   }
 }
